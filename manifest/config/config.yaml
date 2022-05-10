@@ -1,0 +1,19 @@
+server:
+  address: ":8000"
+  openapiPath: "/api.json"
+  swaggerPath: "/swagger"
+
+logger:
+  level: "all"
+  stdout: true
+
+gfcli:
+  build:
+    name: "gf-bugs"
+    arch: "amd64"
+    system: "linux,windows"
+    mod: "none"
+    pack: "public"
+
+    output: "./bin"
+    extra: ""
